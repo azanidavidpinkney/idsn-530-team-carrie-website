@@ -1,4 +1,77 @@
 
+.body{
+    margin: 0;
+    padding: 0;
+}
+.academic{
+    background-color: #023047;
+    max-width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 44px;
+}
+a:hover{
+    color: #219EBC;
+}
+.container {  
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 0px 10px;
+    grid-template-areas: "image text";
+  }
+.image{
+    grid-area: image;
+    filter: drop-shadow(0px 5px 2px #000000);
+    padding: 15%;
+}
+.text{
+    grid-area: text;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5%;
+    padding-right: 15%;
+}
+.gradient1{
+    background: rgb(142,202,230);
+    background: linear-gradient(90deg, rgba(142,202,230,0.10136554621848737) 0%, rgba(142,202,230,0.7512254901960784) 50%, rgba(142,202,230,0.3982843137254902) 100%);
+    max-width: 100vw;
+    height: 2vh;
+}
+.lounge{
+    background-color: #8ECAE6;
+    max-width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #023047;
+}
+.container2{  
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 0px 10px;
+    grid-template-areas: "text image";
+    padding: 5%;
+  }
+
+  .gradient2{
+    background: rgb(2,48,71);
+    background: linear-gradient(90deg, rgba(2,48,71,0.1) 0%, rgba(2,48,71,0.75) 50%, rgba(2,48,71,0.4) 100%);
+    max-width: 100vw;
+    height: 2vh;
+  }
 
 p {
     font-size: 16px;
@@ -91,5 +164,3 @@ ul.social-icons li {
     display: block; /* Ensure the logo is centered properly */
     margin: 0 auto; /* Center the logo horizontally */
 }
-
-
