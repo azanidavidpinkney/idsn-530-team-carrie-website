@@ -1,3 +1,4 @@
+
 .body{
     margin: 0;
     padding: 0;
@@ -64,9 +65,102 @@ a:hover{
     grid-template-areas: "text image";
     padding: 5%;
   }
+
   .gradient2{
     background: rgb(2,48,71);
     background: linear-gradient(90deg, rgba(2,48,71,0.1) 0%, rgba(2,48,71,0.75) 50%, rgba(2,48,71,0.4) 100%);
     max-width: 100vw;
     height: 2vh;
   }
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    font-size: 22px;
+	font-weight: bolder;
+    color: #023047;
+	font-family: 'Open Sans', sans-serif;
+	align-content: center
+}
+h4 {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #023047;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex: 1; /* Each column occupies equal space */
+    padding: 20px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column; /* Change direction to column */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center the content horizontally within each column */
+}
+
+.heading {
+    margin-bottom: 10px; /* Add space after the heading */
+}
+
+.column img {
+    margin-top: 10px; /* Add space above the image */
+    max-width: 100%; /* Ensure image doesn't exceed column width */
+	margin-bottom: 35px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+	padding-bottom: 5px;
+}
+
+footer {
+    background-color: #023047;
+    color: white;
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+}
+.footer-paragraph {
+    text-align: center;
+	font-size: 8px;
+    font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+}
+ul.social-icons {
+    text-align: center;
+	padding-left: 0px;
+}
+
+ul.social-icons img {
+    width: 36px; 
+    height: 36px; 
+    vertical-align: middle; 
+}
+
+ul.social-icons li {
+    display: inline-block;
+    margin: 0 10px; 
+
+.logo-container {
+    margin-top: 5px; /* Add space above the logo */
+    margin-bottom: 30px; /* Add space below the logo */
+    text-align: center; /* Center the logo horizontally */
+}
+
+.logo-container img {
+    max-width: 150px; /* Set maximum width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the logo is centered properly */
+    margin: 0 auto; /* Center the logo horizontally */
+}
