@@ -6,7 +6,7 @@
 .academic {
   background-color: #023047;
   max-width: 100vw;
-  height: 60vh;
+  height: 80vh;
   margin: 0;
   padding: 0;
   color: white;
@@ -62,7 +62,7 @@
 .lounge {
   background-color: #8ecae6;
   max-width: 100vw;
-  height: 60vh;
+  height: 80vh;
   margin: 0;
   padding: 0;
   color: #023047;
@@ -344,7 +344,7 @@ button:hover {
   font: #023047;
   text-align: center;
   font-family: "Open Sans";
-  font-size: 44px;
+  font-size: 24px;
 }
 
 .form-group {
