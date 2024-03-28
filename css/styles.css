@@ -341,7 +341,7 @@ button:hover {
   max-width: 1170px;
 }
 
-.contact {
+.newsletter-main{
   background: #8ecae6;
 }
 
@@ -733,3 +733,57 @@ h3{
 #text7 { grid-area: text7; }
 #text8 { grid-area: text8; }
 #text9 { grid-area: text9; }
+
+
+
+
+/* Contact page */
+
+.contact{
+  background: white;
+ }
+
+  .contact-form{
+   margin:1rem 0;
+   background: #8ecae6;
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+   max-width: 35rem;
+  }
+
+  .contact-form:hover{
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .contact-form h3{
+   padding-top: 1.25rem;
+   color: #023047;
+   text-align: center;
+   font-family: "Open Sans";
+   font-size: 24px;
+  }
+
+  .form-group{
+   padding: 1rem 1.5rem;
+  }
+
+  .form-control{
+   display: inline-block;
+   width: 70%;
+   padding: 0.75rem 1rem;
+   border: none;
+   margin-bottom: 1.25rem;
+   background: white;
+   border-radius: black;
+   text-transform: uppercase;
+   letter-spacing: var(--spacing);
+  }
+
+  .submit-btn-contact{
+   display: block;
+   width: 100%;
+   padding: 1rem;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0 ;
+  }
