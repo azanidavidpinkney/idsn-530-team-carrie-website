@@ -27,7 +27,15 @@
 
   <body>
     <nav>
-      <img src="img/td-logo.png" alt="TechDummies Logo" id="backtotop" />
+      <img
+        src="img/td-logo.png"
+        class="td-logo"
+        alt="TechDummies Logo"
+        id="backtotop"
+      />
+      <button class="hamburger-menu" aria-label="Open navigation menu">
+        &#9776;
+      </button>
       <ul class="navigation-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="academic.html">Resources</a></li>
@@ -258,5 +266,17 @@
         &copy; 2024 techdummies. All rights reserved.
       </p>
     </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
+        const hamburgerMenuButton = document.querySelector(".hamburger-menu");
+        const navigationLinks = document.querySelector(".navigation-links");
+
+        hamburgerMenuButton.addEventListener("click", () => {
+          // This checks if the navigation links are currently displayed. If they are not, it sets them to be displayed.
+          const isDisplayed = navigationLinks.style.display === "block";
+          navigationLinks.style.display = isDisplayed ? "none" : "block";
+        });
+      });
+    </script>
   </body>
 </html>
