@@ -1004,6 +1004,20 @@ img {
   .video-column {
     margin-right: 0;
   }
+
+  /* Adjust navigation layout for mobile */
+  .hamburger-menu {
+    display: block;
+  }
+
+  /* Hide the list of navigation links by default on mobile */
+  .navigation-links {
+    display: none;
+  }
+
+  nav {
+    justify-content: space-between; /* Adjusts space between logo and hamburger */
+  }
 }
 
 @media (max-width: 480px) {
